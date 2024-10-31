@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(8, 9, 53);
+}
+
+#converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    gap: 20px;
+    background-color: rgb(8, 9, 53);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#inputBox,
+#output {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px solid white;
+    background-color: rgb(20, 33, 107);
+    box-sizing: border-box;
+}
+
+
+#input-label {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+input {
+    width: 80%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+#convert-btn, #clear-btn {
+    background-color: rgb(56, 129, 224);
+    color: black;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    margin-left: 10px; 
+}
+
+#output {
+    height: auto;
+}
